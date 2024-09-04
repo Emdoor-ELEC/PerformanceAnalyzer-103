@@ -1,0 +1,89 @@
+Dependencies for Project 'Blinky', Target 'STM32F103 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Blinky.c)(0x66542841)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66067CCD)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x663B4021)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_Buttons.h)(0x5D14014A)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_ADC.h)(0x5D14014A)
+F (.\Thread_ADC.c)(0x66542673)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\thread_adc.o --omf_browse .\flash\thread_adc.crf --depend .\flash\thread_adc.d)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66067CCD)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_ADC.h)(0x5D14014A)
+F (.\Thread_LED.c)(0x66542925)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\thread_led.o --omf_browse .\flash\thread_led.crf --depend .\flash\thread_led.d)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66067CCD)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x663B4021)
+F (.\Abstract.txt)(0x663E0667)()
+F (D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Boards/Keil/MCBSTM32E/Common/ADC_MCBSTM32E.c)(0x660D002F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\adc_mcbstm32e.o --omf_browse .\flash\adc_mcbstm32e.crf --depend .\flash\adc_mcbstm32e.d)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_ADC.h)(0x5D14014A)
+F (D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Boards/Keil/MCBSTM32E/Common/Buttons_MCBSTM32E.c)(0x660D002F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\buttons_mcbstm32e.o --omf_browse .\flash\buttons_mcbstm32e.crf --depend .\flash\buttons_mcbstm32e.d)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_Buttons.h)(0x5D14014A)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\GPIO_STM32F10x.h)(0x660D002F)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)
+F (D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Boards/Keil/MCBSTM32E/Common/LED_MCBSTM32E.c)(0x660D002F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\led_mcbstm32e.o --omf_browse .\flash\led_mcbstm32e.crf --depend .\flash\led_mcbstm32e.d)
+I (D:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x663B4021)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\GPIO_STM32F10x.h)(0x660D002F)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)
+F (D:/Keil_MDK539/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib)(0x66067CCD)()
+F (RTE/CMSIS/RTX_Conf_CM.c)(0x663E0668)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\rtx_conf_cm.o --omf_browse .\flash\rtx_conf_cm.crf --depend .\flash\rtx_conf_cm.d)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66067CCD)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x66067CCD)
+F (D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver/GPIO_STM32F10x.c)(0x660D002F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\gpio_stm32f10x.o --omf_browse .\flash\gpio_stm32f10x.crf --depend .\flash\gpio_stm32f10x.d)
+I (D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver/GPIO_STM32F10x.h)(0x660D002F)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)
+F (RTE/Device/STM32F103ZE/RTE_Device.h)(0x663E0668)()
+F (RTE/Device/STM32F103ZE/startup_stm32f10x_hd.s)(0x663E0668)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\flash\startup_stm32f10x_hd.lst --xref -o .\flash\startup_stm32f10x_hd.o --depend .\flash\startup_stm32f10x_hd.d)
+F (RTE/Device/STM32F103ZE/system_stm32f10x.c)(0x663E0668)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103ZE-I.\RTE\_STM32F103_Flash-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-ID:\Keil_MDK539\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x660D002F)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x6653FFCA)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66067CC3)
+I (D:\Keil_MDK539\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66067CC3)
+I (D:\Keil_MDK539\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x660D002F)

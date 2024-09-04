@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: chen mo, Emdoor, LIC=EPPLD-8980P-5BBEB-2AS3B-1DVA6-1DKQC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.39.0.0
+Toolchain Path:  D:\Keil_MDK539\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      ULP2CM3.DLL V2.215.22.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\MDK_Project\Example_Code\03-cmsis-rtos-blinky-PerformanceAnalyzer-103\Blinky.uvprojx
+Project File Date:  05/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_MDK539\ARM\ARMCC\Bin'
+Rebuild target 'STM32F103 Flash'
+compiling Thread_LED.c...
+Thread_LED.c(49): warning:  #1-D: last line of file ends without a newline
+  }
+Thread_LED.c: 1 warning, 0 errors
+compiling Thread_ADC.c...
+assembling startup_stm32f10x_hd.s...
+compiling RTX_Conf_CM.c...
+compiling Buttons_MCBSTM32E.c...
+compiling LED_MCBSTM32E.c...
+compiling ADC_MCBSTM32E.c...
+compiling system_stm32f10x.c...
+compiling Blinky.c...
+compiling GPIO_STM32F10x.c...
+linking...
+Program Size: Code=8380 RO-data=536 RW-data=100 ZI-data=4756  
+".\Flash\Blinky.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.6.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.MDK-Middleware.7.16.0.pack
+                Keil::MDK-Middleware@7.16.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: A/D Converter Version: 1.0.0
+   * Component: Buttons Version: 1.0.0
+   * Component: LED Version: 1.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: A/D Converter Version: 2.0.0
+   * Component: Buttons Version: 2.0.0
+   * Component: LED Version: 2.0.0
+   * Component: GPIO Version: 1.3
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103ZE
+  ./RTE/_STM32F103_Flash
+  D:/Keil_MDK539/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Keil_MDK539/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC
+  D:/Keil_MDK539/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board
+  D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  D:/Keil_MDK539/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:A/D Converter(API)@1.0.0
+      Include file:  Board/Board_ADC.h
+
+   * Component: ::Board Support:Buttons(API)@1.0.0
+      Include file:  Board/Board_Buttons.h
+
+   * Component: ::Board Support:LED(API)@1.0.0
+      Include file:  Board/Board_LED.h
+
+   * Component: ::CMSIS:RTOS(API)@1.0.0
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX@4.82.0
+      Source file:   CMSIS/RTOS/RTX/SRC/ARM/SVC_Table.s
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MailQueue.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/main.c
+      Include file:  CMSIS/RTOS/RTX/INC/cmsis_os.h
+      Source file:   CMSIS/RTOS/RTX/Templates/RTX_Conf_CM.c
+      Include file:  CMSIS/RTOS/RTX/UserCodeTemplates/osObjects.h
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MemPool.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MsgQueue.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Mutex.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Semaphore.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Thread.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Timer.c
+      Library file:  CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib
+
+   * Component: Keil::Board Support&MCBSTM32E:A/D Converter@2.0.0
+      Source file:   Boards/Keil/MCBSTM32E/Common/ADC_MCBSTM32E.c
+
+   * Component: Keil::Board Support&MCBSTM32E:Buttons@2.0.0
+      Source file:   Boards/Keil/MCBSTM32E/Common/Buttons_MCBSTM32E.c
+
+   * Component: Keil::Board Support&MCBSTM32E:LED@2.0.0
+      Source file:   Boards/Keil/MCBSTM32E/Common/LED_MCBSTM32E.c
+
+   * Component: Keil::Device:GPIO@1.3
+      Include file:  RTE_Driver/GPIO_STM32F10x.h
+      Source file:   RTE_Driver/GPIO_STM32F10x.c
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/startup_stm32f10x_hd.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
